@@ -7,7 +7,7 @@ import App from "./App";
 import "./index.css";
 
 const store = configureStore({
-    reducer: { cart: cartReducer },
+    reducer: { cartState: cartReducer },
 });
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(

@@ -1,10 +1,25 @@
-import { useState } from "react";
-import "./App.css";
+import { useEffect } from "react";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import Home from "./scenes/Home";
 
-function App() {
-    const [count, setCount] = useState(0);
+const ScrollToTop = (): JSX.Element => {
+    const { pathname } = useLocation();
 
-    return <div className="app"></div>;
-}
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
+    return <></>;
+};
+
+const App = (): JSX.Element => {
+    return (
+        <BrowserRouter>
+            <ScrollToTop></ScrollToTop>
+            <Routes>
+                <Route path="/" element={<Home></Home>}></Route>
+            </Routes>
+        </BrowserRouter>
+    );
+};
 
 export default App;

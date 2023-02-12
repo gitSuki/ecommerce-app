@@ -8,7 +8,7 @@ const Footer = (): JSX.Element => {
     return (
         <footer className="footer">
             <div className="title">
-                <h2>Store Name</h2>
+                <h1>Store Name</h1>
             </div>
             <div className="link-section">
                 <ul>

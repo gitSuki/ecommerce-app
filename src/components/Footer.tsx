@@ -1,43 +1,43 @@
-import './Footer.css';
+import "./Footer.css";
 
 const Footer = (): JSX.Element => {
     return (
-        <footer className='footer'>
-            <div className='footer-top'>
+        <footer className="footer">
+            <div className="footer-top">
                 <h2>Store Name</h2>
             </div>
-            <div className='link-section'>
+            <div className="link-section">
                 <ul>
                     <li>
-                        <a>Abous Us</a>
+                        <a className="section-title">Abous Us</a>
                     </li>
                     <li>
-                        <a>Careers</a>
+                        <a className="section-subtitle">Careers</a>
                     </li>
                     <li>
-                        <a>Press Center</a>
+                        <a className="section-subtitle">Press Center</a>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <a>Support</a>
+                        <a className="section-title">Support</a>
                     </li>
                     <li>
-                        <a>Help Center</a>
+                        <a className="section-subtitle">Help Center</a>
                     </li>
                     <li>
-                        <a>Refund Policy</a>
+                        <a className="section-subtitle">Refund Policy</a>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <a>Contact Us</a>
+                        <a className="section-title">Contact Us</a>
                     </li>
                     <li>
-                        <a>Affiliates</a>
+                        <a className="section-subtitle">Affiliates</a>
                     </li>
                     <li>
-                        <a>Partnerships</a>
+                        <a className="section-subtitle">Partnerships</a>
                     </li>
                 </ul>
             </div>

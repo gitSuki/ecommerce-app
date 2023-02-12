@@ -1,3 +1,5 @@
+import appleStore from "../assets/appstorebadge.svg";
+import googlePlay from "../assets/googleplaybadge.png";
 import twitter from "../assets/twitter.png";
 import instagram from "../assets/instagram.png";
 import "./Footer.css";
@@ -61,8 +63,9 @@ const Footer = (): JSX.Element => {
                         euismod leo.
                     </p>
                 </div>
-                <div>
-                    <p>Download on the app store</p>
+                <div className="info-app">
+                    <img className="app-link" src={appleStore} alt="Apple App Store Logo" />
+                    <img className="app-link" src={googlePlay} alt="Google Play Logo" />
                 </div>
             </div>
             <div className="bottom-section">

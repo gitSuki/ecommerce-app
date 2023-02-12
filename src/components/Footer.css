@@ -53,6 +53,17 @@
     margin: 5px;
 }
 
+.info-app {
+    display: flex;
+    gap: 5px;
+}
+
+.app-link {
+    height: 37px;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
 .bottom-section {
     display: flex;
     justify-content: space-between;

@@ -1,25 +1,45 @@
+import './Footer.css';
+
 const Footer = (): JSX.Element => {
     return (
-        <div>
-            <div>
+        <footer className='footer'>
+            <div className='footer-top'>
                 <h2>Store Name</h2>
             </div>
-            <div>
-                <div>
-                    <h3>Abous Us</h3>
-                    <h4>Careers</h4>
-                    <h4>Press Center</h4>
-                </div>
-                <div>
-                    <h3>Support</h3>
-                    <h4>Help Center</h4>
-                    <h4>Refund Policy</h4>
-                </div>
-                <div>
-                    <h3>Contact Us</h3>
-                    <h4>Affiliates</h4>
-                    <h4>Partnerships</h4>
-                </div>
+            <div className='link-section'>
+                <ul>
+                    <li>
+                        <a>Abous Us</a>
+                    </li>
+                    <li>
+                        <a>Careers</a>
+                    </li>
+                    <li>
+                        <a>Press Center</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a>Support</a>
+                    </li>
+                    <li>
+                        <a>Help Center</a>
+                    </li>
+                    <li>
+                        <a>Refund Policy</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a>Contact Us</a>
+                    </li>
+                    <li>
+                        <a>Affiliates</a>
+                    </li>
+                    <li>
+                        <a>Partnerships</a>
+                    </li>
+                </ul>
             </div>
             <hr></hr>
             <div>
@@ -33,13 +53,13 @@ const Footer = (): JSX.Element => {
             </div>
             <div>
                 <div>
-                    <h4>Privacy</h4>
-                    <h4>Security</h4>
-                    <h4>Cookies</h4>
-                    <h4>Legal</h4>
+                    <a>Privacy</a>
+                    <a>Security</a>
+                    <a>Cookies</a>
+                    <a>Legal</a>
                 </div>
             </div>
-        </div>
+        </footer>
     );
 };
 

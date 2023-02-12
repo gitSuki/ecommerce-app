@@ -9,13 +9,16 @@ const Footer = (): JSX.Element => {
             <div className="link-section">
                 <ul>
                     <li>
-                        <a className="section-title">Abous Us</a>
+                        <a className="section-title">Company</a>
+                    </li>
+                    <li>
+                        <a className="section-subtitle">About Us</a>
                     </li>
                     <li>
                         <a className="section-subtitle">Careers</a>
                     </li>
                     <li>
-                        <a className="section-subtitle">Press Center</a>
+                        <a className="section-subtitle">Blog</a>
                     </li>
                 </ul>
                 <ul>
@@ -26,10 +29,13 @@ const Footer = (): JSX.Element => {
                         <a className="section-subtitle">Help Center</a>
                     </li>
                     <li>
+                        <a className="section-subtitle">FAQ</a>
+                    </li>
+                    <li>
                         <a className="section-subtitle">Refund Policy</a>
                     </li>
                 </ul>
-                <ul>
+                <ul className="section4">
                     <li>
                         <a className="section-title">Contact Us</a>
                     </li>

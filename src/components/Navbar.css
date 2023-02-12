@@ -11,3 +11,23 @@
 .search-section {
     display: flex;
 }
+
+.search-input {
+    background-color: #262626;
+    border: transparent;
+    border-radius: 8px;
+    height: 2rem;
+    width: 250px;
+    padding-left: 1rem;
+    outline: none;
+    color: #cccccc;
+    transition: 0.3s all;
+}
+
+.search-input:hover {
+    background-color: #2d2d2d;
+}
+
+.search-input:focus {
+    background-color: #333;
+}

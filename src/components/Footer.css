@@ -45,10 +45,45 @@
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
-    color: #ccc;
+    color: #cccccc;
     gap: 50px;
 }
 
 .info-section p {
     margin: 5px;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-links {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    gap: 40px;
+}
+
+.bottom-links a {
+    color: #cccccc;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+.bottom-links a:hover {
+    color: #ffffff;
+}
+
+.bottom-social-media {
+    display: flex;
+    gap: 16px;
+}
+
+.social-media {
+    margin-top: 40px;
+    height: 20px;
+    cursor: pointer;
 }

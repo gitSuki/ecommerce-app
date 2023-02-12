@@ -1,9 +1,11 @@
+import twitter from "../assets/twitter.png";
+import instagram from "../assets/instagram.png";
 import "./Footer.css";
 
 const Footer = (): JSX.Element => {
     return (
         <footer className="footer">
-            <div className="footer-top">
+            <div className="title">
                 <h2>Store Name</h2>
             </div>
             <div className="link-section">
@@ -51,18 +53,28 @@ const Footer = (): JSX.Element => {
             <div className="info-section">
                 <div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <p> Fusce tellus dui, rutrum nec nunc cursus, volutpat euismod sapien. Sed ultricies urna eu suscipit congue. Nulla facilisi. Nam ullamcorper feugiat mauris in efficitur. Praesent sagittis nulla nisl, eget luctus diam rhoncus non. Nulla eget urna at turpis tempor volutpat. Ut nec euismod leo.</p>
+                    <p>
+                        {" "}
+                        Fusce tellus dui, rutrum nec nunc cursus, volutpat euismod sapien. Sed ultricies urna eu
+                        suscipit congue. Nulla facilisi. Nam ullamcorper feugiat mauris in efficitur. Praesent sagittis
+                        nulla nisl, eget luctus diam rhoncus non. Nulla eget urna at turpis tempor volutpat. Ut nec
+                        euismod leo.
+                    </p>
                 </div>
                 <div>
                     <p>Download on the app store</p>
                 </div>
             </div>
-            <div>
-                <div>
+            <div className="bottom-section">
+                <div className="bottom-links">
                     <a>Privacy</a>
                     <a>Security</a>
                     <a>Cookies</a>
                     <a>Legal</a>
+                </div>
+                <div className="bottom-social-media">
+                    <img className="social-media" src={twitter} alt="Twitter Logo" />
+                    <img className="social-media" src={instagram} alt="Instagram Logo" />
                 </div>
             </div>
         </footer>

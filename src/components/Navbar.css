@@ -7,3 +7,17 @@
     background-color: #0f1011;
     color: #ffffff;
 }
+
+.search-section {
+    display: flex;
+}
+
+.search-icon {
+    fill: #ffffff;
+    padding-top: 3px;
+    transition: 0.3s;
+}
+
+.search-icon:hover {
+    fill: #cccccc;
+}

@@ -47,11 +47,11 @@ const Footer = (): JSX.Element => {
                     </li>
                 </ul>
             </div>
-            <hr></hr>
-            <div>
+            <hr className="divider"></hr>
+            <div className="info-section">
                 <div>
-                    <p>Desc Title</p>
-                    <p>Desc Content</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p> Fusce tellus dui, rutrum nec nunc cursus, volutpat euismod sapien. Sed ultricies urna eu suscipit congue. Nulla facilisi. Nam ullamcorper feugiat mauris in efficitur. Praesent sagittis nulla nisl, eget luctus diam rhoncus non. Nulla eget urna at turpis tempor volutpat. Ut nec euismod leo.</p>
                 </div>
                 <div>
                     <p>Download on the app store</p>

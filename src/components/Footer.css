@@ -8,6 +8,7 @@
 .link-section {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .link-section ul {
@@ -34,4 +35,20 @@
 
 .section-subtitle:hover {
     color: #ffffff;
+}
+
+.divider {
+    border-color: #767676;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    color: #ccc;
+    gap: 50px;
+}
+
+.info-section p {
+    margin: 5px;
 }

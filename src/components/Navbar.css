@@ -10,13 +10,16 @@
 
 .search-section {
     display: flex;
+    gap: 5px;
+    align-items: center;
 }
 
 .search-input {
+    font-size: 1.1rem;
     background-color: #262626;
     border: transparent;
     border-radius: 8px;
-    height: 2rem;
+    height: 2.5rem;
     width: 250px;
     padding-left: 1rem;
     outline: none;
@@ -25,9 +28,14 @@
 }
 
 .search-input:hover {
-    background-color: #2d2d2d;
+    background-color: #333333;
 }
 
 .search-input:focus {
-    background-color: #333;
+    background-color: #515151;
+}
+
+.cart-icon {
+    color: #cccccc;
+    cursor: pointer;
 }

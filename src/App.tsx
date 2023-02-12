@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Checkout from "./scenes/Checkout";
 import Home from "./scenes/Home";
@@ -24,6 +25,7 @@ const App = (): JSX.Element => {
                 <Route path="item:Id" element={<ItemDetails></ItemDetails>}></Route>
                 <Route path="checkout" element={<Checkout></Checkout>}></Route>
             </Routes>
+            <Footer></Footer>
         </BrowserRouter>
     );
 };
